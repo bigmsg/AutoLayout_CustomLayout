@@ -54,6 +54,7 @@ class DiagonalCustomImageView: UIImageView {
         
     }
     
+    // 위젯이 만들어질때 실행되는 메소드
     override func layoutSubviews() {
         print("custom imageview layoutSubviews()")
         makeMask()
