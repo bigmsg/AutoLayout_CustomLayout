@@ -16,6 +16,7 @@
 		33D4EFE1236454140012009F /* AutoLayout_CustomLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4EFE0236454140012009F /* AutoLayout_CustomLayoutUITests.swift */; };
 		33D4EFEF2364551D0012009F /* DiagonalCustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4EFEE2364551D0012009F /* DiagonalCustomImageView.swift */; };
 		33D4EFF123645ACC0012009F /* WeatherBG_Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 33D4EFF023645ACC0012009F /* WeatherBG_Blood.png */; };
+		33D4EFF323650EBF0012009F /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4EFF223650EBF0012009F /* CustomLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		33D4EFE2236454140012009F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33D4EFEE2364551D0012009F /* DiagonalCustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalCustomImageView.swift; sourceTree = "<group>"; };
 		33D4EFF023645ACC0012009F /* WeatherBG_Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeatherBG_Blood.png; sourceTree = "<group>"; };
+		33D4EFF223650EBF0012009F /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				33D4EFC0236454120012009F /* AppDelegate.swift */,
-				33D4EFC2236454120012009F /* ViewController.swift */,
 				33D4EFEE2364551D0012009F /* DiagonalCustomImageView.swift */,
+				33D4EFC2236454120012009F /* ViewController.swift */,
+				33D4EFF223650EBF0012009F /* CustomLabel.swift */,
 				33D4EFF023645ACC0012009F /* WeatherBG_Blood.png */,
 				33D4EFC4236454120012009F /* Main.storyboard */,
 				33D4EFC7236454140012009F /* Assets.xcassets */,
@@ -266,6 +269,7 @@
 				33D4EFEF2364551D0012009F /* DiagonalCustomImageView.swift in Sources */,
 				33D4EFC3236454120012009F /* ViewController.swift in Sources */,
 				33D4EFC1236454120012009F /* AppDelegate.swift in Sources */,
+				33D4EFF323650EBF0012009F /* CustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
