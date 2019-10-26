@@ -14,6 +14,8 @@
 		33D4EFCB236454140012009F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D4EFC9236454140012009F /* LaunchScreen.storyboard */; };
 		33D4EFD6236454140012009F /* AutoLayout_CustomLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4EFD5236454140012009F /* AutoLayout_CustomLayoutTests.swift */; };
 		33D4EFE1236454140012009F /* AutoLayout_CustomLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4EFE0236454140012009F /* AutoLayout_CustomLayoutUITests.swift */; };
+		33D4EFEF2364551D0012009F /* DiagonalCustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4EFEE2364551D0012009F /* DiagonalCustomImageView.swift */; };
+		33D4EFF123645ACC0012009F /* WeatherBG_Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 33D4EFF023645ACC0012009F /* WeatherBG_Blood.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		33D4EFDC236454140012009F /* AutoLayout_CustomLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayout_CustomLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D4EFE0236454140012009F /* AutoLayout_CustomLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout_CustomLayoutUITests.swift; sourceTree = "<group>"; };
 		33D4EFE2236454140012009F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D4EFEE2364551D0012009F /* DiagonalCustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagonalCustomImageView.swift; sourceTree = "<group>"; };
+		33D4EFF023645ACC0012009F /* WeatherBG_Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeatherBG_Blood.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				33D4EFC0236454120012009F /* AppDelegate.swift */,
 				33D4EFC2236454120012009F /* ViewController.swift */,
+				33D4EFEE2364551D0012009F /* DiagonalCustomImageView.swift */,
+				33D4EFF023645ACC0012009F /* WeatherBG_Blood.png */,
 				33D4EFC4236454120012009F /* Main.storyboard */,
 				33D4EFC7236454140012009F /* Assets.xcassets */,
 				33D4EFC9236454140012009F /* LaunchScreen.storyboard */,
@@ -231,6 +237,7 @@
 			files = (
 				33D4EFCB236454140012009F /* LaunchScreen.storyboard in Resources */,
 				33D4EFC8236454140012009F /* Assets.xcassets in Resources */,
+				33D4EFF123645ACC0012009F /* WeatherBG_Blood.png in Resources */,
 				33D4EFC6236454120012009F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D4EFEF2364551D0012009F /* DiagonalCustomImageView.swift in Sources */,
 				33D4EFC3236454120012009F /* ViewController.swift in Sources */,
 				33D4EFC1236454120012009F /* AppDelegate.swift in Sources */,
 			);
